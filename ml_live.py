@@ -54,5 +54,4 @@ def detect_cracks_from_webcam():
     cap.release()
     cv2.destroyAllWindows()
 
-# Run the crack detection function
 detect_cracks_from_webcam()
