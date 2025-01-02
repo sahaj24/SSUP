@@ -1,7 +1,6 @@
 import cv2
 from ultralytics import YOLO
 
-# Load your custom trained YOLOv8 model
 model_path = "E:\\ssup\\Trained.pt"  # Path to your trained model
 try:
     model = YOLO(model_path)
