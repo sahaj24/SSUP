@@ -1,7 +1,7 @@
 import cv2
 from ultralytics import YOLO
 
-model_path = "E:\\ssup\\Trained.pt"  # Path to your trained model
+model_path = "E:\\ssup\\Trained.pt"  # if you want to try, you can put your model path
 try:
     model = YOLO(model_path)
 except Exception as e:
