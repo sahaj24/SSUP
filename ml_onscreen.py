@@ -3,12 +3,12 @@ from ultralytics import YOLO
 import pyautogui
 import numpy as np
 
-# Load your custom trained YOLOv8 model
+
 model_path = "E:\\ssup\\Trained.pt"  # Path to your trained model
 model = YOLO(model_path)
 
-# Define the class ID for crack detection
-crack_class_id = 0  # Update this based on your training data's class ID for cracks
+
+crack_class_id = 0  
 
 # Define the region of interest for screen capture (x, y, width, height)
 region = (100, 100, 800, 600)  # Adjust coordinates as needed
