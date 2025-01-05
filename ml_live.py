@@ -8,7 +8,7 @@ except Exception as e:
     print(f"Error loading YOLO model: {e}")
     exit()
 
-# Define the class ID for crack detection
+
 crack_class_id = 0  # Update this based on your training data's class ID for cracks
 
 def detect_cracks_from_webcam():
