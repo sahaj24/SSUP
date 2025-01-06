@@ -9,10 +9,10 @@ except Exception as e:
     exit()
 
 
-crack_class_id = 0  # Update this based on your training data's class ID for cracks
+crack_class_id = 0  # Update this based on your training data's class ID
 
 def detect_cracks_from_webcam():
-    # Open the webcam
+    # Open webcam
     cap = cv2.VideoCapture(0)
     if not cap.isOpened():
         print("Error: Unable to access the webcam.")
